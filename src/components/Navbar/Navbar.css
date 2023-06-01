@@ -1,0 +1,128 @@
+.menu-bar {
+    justify-self: center;
+    background-color: rgb(25, 27, 31);
+    width: fit-content;
+    padding: 4px;
+    border-radius: 16px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    overflow: auto;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+}
+
+.menu-items {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 3rem;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(195, 197, 203);
+    font-size: 1rem;
+    width: fit-content;
+    font-weight: 500;
+    padding: 8px 12px;
+    word-break: break-word;
+    gap:20px;
+    
+}
+a {
+    padding: 10px;
+    color:rgb(195, 197, 203);
+}
+a.active {
+    border-radius: 12px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 47, 54);
+    padding: 10px;
+}
+
+/*modal starts here*/
+.modal{
+    background-color: rgb(25, 27, 31) !important;
+    border-radius: 20px!important;
+}
+
+.ui.modal>.header{
+    border: none;
+    background-color: rgb(25, 27, 31);
+    padding: 20px 20px 0;
+}
+.ui.modal>.content{
+    padding: 0px 20px 20px;
+    border: 1px solid red;
+    border: none;
+    background-color: rgb(25, 27, 31);
+
+}
+
+.ui.modal>.header>.header-of-modal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ui.modal>.header>.header-of-modal>.close-btn-custom{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-bottom: 10px;
+}
+.ui.modal>.header>.header-of-modal>.close-btn-custom>.custom-dimension-of-icon{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+
+}
+.ui.modal>.header>.header-of-modal>h3{
+    color: rgb(255, 255, 255);
+}
+.bg-custom-light{
+    background:rgb(33, 36, 41) !important;
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 8%) 0px 6px 10px;
+    outline: none;
+    cursor: pointer;
+    padding:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.bg-custom-light>.contents>p{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+.bg-custom-light>.img-box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.bg-custom-light>.img-box>img{
+    width: inherit;
+    height:inherit;
+    border-radius: inherit;
+}
+.only-blue{
+    color: deepskyblue;
+}
+.only-blue:hover{
+     color: deepskyblue;
+ }
+.text-decoration{
+    color: deepskyblue;
+    text-decoration: underline;
+}
+.text-decoration:hover{
+    color: deepskyblue;
+    text-decoration: underline;
+}
